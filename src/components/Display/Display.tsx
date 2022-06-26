@@ -13,7 +13,7 @@ const Display: React.FC<DisplayProps> = (props) => {
 
 	return (
 		<div css={displayStyles}>
-			<input type="text" {...props} />
+			<input type="text" role="textbox" {...props} />
 		</div>
 	);
 };

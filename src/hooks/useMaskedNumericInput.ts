@@ -5,7 +5,6 @@ const useMaskedNumericInput = (mask: string) => {
 
 	useEffect(() => {
 		setValue(internalValue);
-		console.log("Mask changed: ", mask);
 	}, [mask]);
 
 	const setValue = (value: string) => {
