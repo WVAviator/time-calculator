@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import React, { useState } from "react";
-import useMaskedNumericInput from "../../hooks/useMaskedNumericInput";
+import useMaskedNumericInput from "../../hooks/useMaskedNumericInput/useMaskedNumericInput";
 import Button from "../Button";
 import Display from "../Display";
 import Keypad from "../Keypad";
